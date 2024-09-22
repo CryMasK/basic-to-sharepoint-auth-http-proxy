@@ -15,4 +15,4 @@ jobs:
     steps:
     - uses: actions/checkout@v4
     - name: Build the Docker image
-      run: docker build ./api/ -t crymask/basic-to-sharepoint-auth-http-proxy
+      run: docker build . --file Dockerfile --tag my-image-name:$(date +%s)
