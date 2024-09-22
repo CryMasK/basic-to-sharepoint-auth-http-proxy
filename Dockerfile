@@ -1,5 +1,5 @@
 FROM node:10-alpine
-MAINTAINER Stefan Kleeschulte
+MAINTAINER CryMasK
 WORKDIR /usr/src/app
 RUN npm install forever -g
 COPY package*.json ./

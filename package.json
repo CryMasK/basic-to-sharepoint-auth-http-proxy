@@ -28,7 +28,7 @@
   "dependencies": {
     "agentkeepalive": "4.0.2",
     "debug": "4.1.1",
-    "node-sp-auth": "2.5.7",
+    "node-sp-auth": "3.0.8",
     "supports-color": "7.0.0"
   },
   "devDependencies": {
